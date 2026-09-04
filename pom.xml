@@ -79,6 +79,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>diplo-cloud-notificacion-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
