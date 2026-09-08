@@ -11,3 +11,6 @@ Implementation of  microservice for the disco-notification application. The noti
 
 ## ci-java-dev
 [![CI - Java Maven-DEV](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci-java-dev.yml/badge.svg)](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci-java-dev.yml)
+
+## ci-java-qa
+[![CI Caller](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci.yml/badge.svg)](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci.yml)
