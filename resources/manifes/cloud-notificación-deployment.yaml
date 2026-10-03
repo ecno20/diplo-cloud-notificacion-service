@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloud-notificacion-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: notificacion-deployment
+  template:
+    metadata:
+      labels:
+        app: notificacion-deployment
+    spec:
+      containers:
+        - name: cloud-notificacion-container
+          image: ecno20/disco-cloud-notificacion:1.0.0
+          ports:
+            - containerPort: 8080
