@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: notificacion-deployment-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: k8s.nuup.ninja
+      http:
+        paths:
+          - path: /notificacion-deployment
+            pathType: Prefix
+            backend:
+              service:
+                name: notificacion-rest-service
+                port:
+                  number: 8080
