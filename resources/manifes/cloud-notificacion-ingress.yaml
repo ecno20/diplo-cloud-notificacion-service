@@ -12,6 +12,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: notificacion-rest-service
+                name: cloud-notificacion-service
                 port:
                   number: 8080
