@@ -15,6 +15,10 @@ Implementation of  microservice for the disco-notification application. The noti
 
 [![CI Caller](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci.yml/badge.svg)](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci.yml)
 
+## Ci-Caller-->Security Scan
+
+[![CI Caller](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci.yml/badge.svg)](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci.yml)
+
 ## ci-java-PRD
 
 [![CI - Java Maven-PRD](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci-java-prd.yml/badge.svg)](https://github.com/ecno20/diplo-cloud-notificacion-service/actions/workflows/ci-java-prd.yml)
